@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Anshu Kumari Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+h6{
+  color: #D3a121;
+ 
+}
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+.ftco-counter .block-18 {
+    display: block;
+    width: 30%;
+    text-align: center;
+    background: #191919;
+    padding: 30px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+.project-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Change to column direction */
+    align-items: center; /* Center the items horizontally */
+}
+
+.project {
+    width: 80%; /* Ensure the project takes full width */
+     /* Optional: set a max-width for better appearance */
+    margin: 10px 0; /* Vertical margin */
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border: 4px solid; /* Set the border width */
+    border-image: linear-gradient(rgb(228, 120, 5), rgb(136, 116, 116)) 1; /* Gradient border */
+    box-shadow: 0 0 10px rgba(125, 78, 78, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    height: 100%;
+}
+
+.project h3 {
+    margin: 0 0 10px;
+}
+
+.project p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .project {
+        flex: 1 1 100%; /* Full width on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        flex: 1 1 100%; /* Full width on the smallest screens */
+    }
+}
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Anshu Kumari</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-secti" class="nav-link"><span>Home</span></a></li>
+            <li class="nav-item"><a href="#ml" class="nav-link"><span>Research & Ml</span></a></li>
+	          <li class="nav-item"><a href="#py" class="nav-link"><span>Python</span></a></li>
+	          <li class="nav-item"><a href="#powerbi" class="nav-link"><span>Power BI</span></a></li>
+	          <li class="nav-item"><a href="#sql" class="nav-link"><span>SQL</span></a></li>
+	          <li class="nav-item"><a href="#excel" class="nav-link"><span>Excel</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <br>
+    <br>
+<div class="anshu">
+    <section class="project-section">
+      <div class="project"id="ml">
+        <h3>Shape Alignment and their Procrustes Analysis</h3>
+        <h6>MATLAB | Excel</h6>
+        <p>
+<b>Situation:</b><br>
+Shape alignment is a critical task in various fields, including biology, computer vision, and anthropology, requiring precise methods to eliminate variations in translation, rotation, and scaling among shapes. <br>
+<b>Task:</b><br>
+The objective was to conduct research on shape alignment using Procrustes Analysis and Generalized Procrustes Analysis, employing different distance metrics to enhance the accuracy and robustness of the alignment process. <br>
+<b>Action:</b>
+<ul>
+<li>Utilized MATLAB for precise landmark annotation and shape alignment.</li>
+<li>Implemented Procrustes Analysis to adjust shapes by scaling, rotating, and translating them.</li>
+<li>Applied various distance metrics, including Euclidean and Manhattan distances, to improve analytical precision.</li>
+<li>Conducted systematic experiments with different convergence parameters to optimize the alignment process.</li>
+<li>Explored the use of Generalized Procrustes Analysis for concurrent alignment of multiple shapes.</li>
+</ul>
+<b>Result:</b>
+<ul>
+<li>Achieved a 30% increase in alignment accuracy, significantly improving the robustness of the analysis.</li>
+<li>Uncovered valuable insights into shape alignment that promise to revolutionize data analysis, pattern recognition, and shape modeling.</li>
+<li>Research outcomes have potential applications in biomedical imaging, computer vision, and geospatial analysis, contributing to advancements in these fields.</li>
+</ul>
+        </p>
+        GitHub repository : <a href="https://github.com/Anshu885/Shape-Alignment-and-their-Procrustes-Analysis" color="blue"><b>Link</b></a>
+    </div>
+    <div class="project"id="py">
+      <h3>Diwali Sales Analysis</h3>
+      <h6>Python</h6>
+      <p>
+  <b>Situation:</b><br>
+  During a beginners' data analysis project, the goal was to analyze a large dataset of Diwali sales transactions to uncover valuable insights and patterns that could inform marketing and sales strategies.
+  <br>
+  <b>Task:</b><br>
+  The task was to analyze 11,239 Diwali sales transactions using Python libraries to identify spending patterns based on gender, age group preferences, top-performing states, and key product categories. <br>
+  <b>Action:</b>
+  <ul>
+  <li>Utilized Python libraries such as Pandas, Matplotlib, and Seaborn for data analysis and visualization.</li>
+  <li>Conducted a comprehensive analysis of the dataset, focusing on spending variations by gender.</li>
+  <li>Investigated age group preferences to determine the highest spending demographics.</li>
+  <li>Identified the top-performing states in terms of sales revenue.</li>
+  <li>Analyzed key product categories to highlight the most popular and profitable segments.</li>
+  </ul>
+  <b>Result:</b>
+  <ul>
+  <li>Uncovered significant gender-based spending variations: Females spent $74,335,853, while males spent $31,913,276.</li>
+  <li>Revealed that the 26-35 age group was the highest spending demographic.</li>
+  <li>Identified Maharashtra and Uttar Pradesh as the top-performing states in terms of sales.</li>
+  <li>Highlighted key product categories, such as Auto and Food Processing, as major contributors to sales revenue.</li>
+  </ul>
+  GitHub repository : <a href="https://github.com/Anshu885/Diwali-Sales-Analysis" color="blue"><b>Link</b></a></p>
+  </div> 
+  
+    <div class="project">
+      <h3>Analyzing Electric Vehicle Adoption and Trends in the United States</h3>
+      <h6>Python</h6>
+      <p>
+        <b>Situation:</b> <br>
+        As part of a comprehensive effort to understand and promote the adoption of electric vehicles (EVs) across the United States, I undertook a data analysis project using a large dataset of registered EVs. This project aimed to uncover insights about the geographical distribution, types, range, and popularity of EVs, which could guide future initiatives and inform stakeholders about the current state of EV adoption.<br>
+        <b>Task:</b> <br>Analyzing the trend of electric vehicle (EV) adoption over time, identifying geographical hotspots of EV registrations, and understanding the distribution and electric range trends of various EV types. <br>
+        <b>Action:</b>
+        <ul>
+          <li>Loaded the EV dataset and performed initial data exploration.</li>
+          <li>Identified and handled missing values by dropping rows with incomplete data.</li>
+          <li>Created a bar chart to visualize the number of EV registrations per model year, revealing the trend in EV adoption.</li>
+          <li>Analyzed and visualized the distribution of EVs across different counties and cities, focusing on the top counties and cities with the highest registrations.</li>
+          <li>Visualized the distribution of different types of electric vehicles (Battery Electric Vehicles vs. Plug-in Hybrid Electric Vehicles).</li>
+          <li>Created a histogram to analyze the distribution of electric ranges of the vehicles, highlighting the mean range.</li>
+          <li>Identified the top 10 EV makes and the top models within the top 3 makes, visualizing their popularity through bar charts.</li>
+      </ul>    
+        <b>Result:</b>
+        <ul>
+          <li>There has been a consistent increase in EV registrations over the years, indicating a growing acceptance and adoption of electric vehicles.</li>
+          <li>EV adoption is highly concentrated in certain areas, with King County, WA, having the highest number of registrations. Seattle leads among cities with a substantial margin.</li>
+          <li>Battery Electric Vehicles (BEVs) are more popular than Plug-in Hybrid Electric Vehicles (PHEVs), with a significant majority of registrations.</li>
+          <li>The average electric range of the vehicles in the dataset is approximately 58.84 miles, with a notable number of vehicles having ranges below this average.</li>
+          <li>Tesla dominates the EV market, with Tesla Model Y and Model 3 being the most registered vehicles.</li>
+      </ul>
+      </p>
+      GitHub repository : <a href="https://github.com/Anshu885/Analyzing-Electric-Vehicle-Adoption-and-Trends-in-the-United-States" color="blue"><b>Link</b></a>
+  </div>
+  
+  <div class="project" id="financial">
+    <h3>Financial Analysis and Profitability Enhancement in Food Delivery Services</h3>
+    <h6>Python</h6>
+    <p>
+      <b>Situation:</b> <br>
+      This project aimed to analyze and enhance the profitability of a food delivery service in New Delhi by investigating the financial aspects of 1,000 food orders. The primary focus was to understand the cost structures, revenue streams, and profitability trends, and to propose recommendations for improving financial outcomes through adjusted commission and discount strategies.<br>
+      <b>Task:</b><br>
+        To conduct a detailed analysis of 1,000 food orders to understand profitability trends, identify main cost drivers, and simulate the financial impact of adjusted commission and discount rates to enhance overall profitability.  <br> 
+      <b>Action:</b>
+      <ul>
+        <li>Loaded and cleaned 1000 food order records, reducing to 815 complete entries by dropping missing discounts, ensuring robust dataset integrity.</li>
+        <li>Transformed date columns to datetime format, enhancing data usability and accuracy in temporal analyses.</li>
+        <li>Calculated discount percentages and amounts from various promotional offers, optimizing financial transparency and cost control.</li>
+        <li>Analyzed financial metrics to reveal total operational costs of INR 221,741.85 against revenue of INR 103,798, highlighting a significant net loss.</li>
+        <li>Utilized visualizations like histograms and pie charts to illustrate profit distribution and cost breakdown, facilitating clear operational insights.</li>
+    </ul>
+       
+      <b>Result:</b>
+      <ul>
+        <li>Identified a substantial operational loss of INR 117,943.85, underscoring the urgency for strategic financial adjustments.</li>
+        <li>Revealed a wide distribution of order profitability, with a notable average profit below zero, emphasizing financial challenges.</li>
+        <li>Highlighted discount costs as the largest proportion of total expenses, quantifying its impact on operational profitability.</li>
+        <li>Simulated profitability improvements with recommended commission rates (37%) and discount strategies (10%), projecting potential profit enhancement.</li>
+        <li>Proposed actionable strategies to increase profitability, suggesting targeted adjustments in commission rates and discount strategies for sustainable financial gains.</li>
+    </ul>
+    
+    </p>
+    GitHub repository : <a href="https://github.com/Anshu885/Financial-Analysis-and-Profitability-Enhancement-in-Food-Delivery-Services" color="blue"><b>Link</b></a>
+  </div>
+  
+  <div class="project">
+    <h3>Analyzing Student Academic Performance and Demographics</h3>
+    <h6>Python</h6>
+    <p>
+      <b>Situation:</b> <br>
+      I was tasked with analyzing a comprehensive dataset on student performance, including demographics and academic scores across different subjects.<br>
+      <b>Task:</b><br>
+      To explore the impact of parental marital status and education on student academic performance.
+      To visualize and interpret distributions of study habits, gender, and ethnic groups within the dataset.  <br> 
+      <b>Action:</b>
+      <ul>
+        <li>Loaded and initially explored the dataset, identifying missing values and relevant columns.</li>
+        <li>Conducted group-wise analysis using groupby to calculate mean scores based on parental marital status and education levels.</li>
+        <li>Implemented data cleaning by dropping unnecessary columns and standardizing study hours.</li>
+        <li>Utilized visualization techniques such as count plots, box plots for score distributions, and a pie chart for ethnic group distribution.</li>
+        <li>Generated insights through visualizations and statistical analysis to highlight patterns and trends in student data.</li>
+    </ul>
+    
+       
+      <b>Result:</b>
+      <ul>
+        <li>Identified that students with parents holding higher degrees tend to achieve higher academic scores on average.</li>
+        <li>Visualized gender distribution, revealing a slight imbalance in dataset representation favoring females.</li>
+        <li>Analyzed score distributions across subjects, indicating variability and potential outliers in academic performance.</li>
+        <li>Visualized ethnic group distribution, with Group C comprising the largest proportion of students.</li>
+        <li>Quantified insights through visualizations, providing clear, data-driven interpretations of student demographics and academic performance trends.</li>
+    </ul>
+    
+    </p>
+    GitHub repository : <a href="https://github.com/Anshu885/Analyzing-Student-Academic-Performance-and-Demographics" color="blue"><b>Link</b></a>
+  </div>
+  
+  <div class="project">
+    <h3>Store Analysis</h3>
+    <h6>Python</h6>
+    <p>
+      <b>Situation:</b> <br>
+      I analyzed the Superstore_USA.xlsx dataset to gain insights into profitability and customer order trends across various dimensions.<br>
+      <b>Task:</b><br>
+      Analyze profitability by product category, identifying top-performing segments and customer ordering behaviors by priority and shipping modes. It includes assessing regional sales for effective targeting and analyzing annual order trends for seasonal insights and growth opportunities, optimizing inventory and marketing strategies based on product category performance.
+      <br> 
+      <b>Action:</b>
+      <ul>
+        <li>Loaded and inspected dataset columns and initial data summaries.</li>
+        <li>Cleaned missing values in critical fields such as 'Product Base Margin' using mean imputation.</li>
+        <li>Created visualizations including bar plots, pie charts, and count plots to visualize key metrics.</li>
+        <li>Calculated and visualized profitability metrics across product categories and customer segments.</li>
+        <li>Analyzed and visualized regional sales distributions and customer order patterns over time.</li>
+    </ul>
+    
+      <b>Result:</b>
+      <ul>
+        <li>Technology products emerged as the most profitable category based on total profit generated.</li>
+        <li>Office supplies showed a significant product base margin, indicating potential areas for cost optimization or pricing adjustments.</li>
+        <li>California led with the highest number of orders, highlighting a key market for targeted marketing efforts or operational focus.</li>
+        <li>The year 2023 saw the highest order volume, suggesting successful marketing strategies or increased consumer interest.</li>
+        <li>Regular Air was the preferred shipping mode, signaling opportunities for optimizing logistics or exploring partnerships with carriers for cost efficiencies.</li>
+    </ul>
+  </p>
+  GitHub repository : <a href="https://github.com/Anshu885/Store-Analysis" color="blue"><b>Link</b></a>
+  </div>
+      <div class="project" id="powerbi">
+        <h3>Extracting Live Insights from Coursera </h3>
+        <h6>Python | Excel | Power BI</h6>
+        <p>
+        <b>Situation:</b><br>
+In the rapidly evolving landscape of online education, it became crucial to identify and leverage data-driven insights to enhance user engagement and course completion rates on Coursera. <br>
+<b>Task:</b><br>
+          The objective was to develop a tool that could extract, analyze, and visualize data from Coursera to uncover trends and actionable insights, ultimately boosting user engagement and completion rates.
+<br>
+<b>Action:</b><br>
+<ul>
+<li>Utilized Beautiful Soup for web scraping Coursera data, extracting details of over 500 courses.</li>
+<li>Developed a Python-based tool for live data extraction.</li>
+<li>Employed Excel and Power BI for data cleaning and analysis, ensuring the data was ready for insightful visualizations.</li>
+<li>Analyzed the cleaned data to uncover trends and actionable insights.</li>
+<li>Implemented these insights to create targeted strategies for improving user engagement and course completion.</li>
+</ul>
+<b>Result:</b><br>
+The implementation of these insights led to a 20% increase in user engagement and a 15% rise in course completion rates, demonstrating the effectiveness of data-driven strategies in the online education domain.
+        </p>
+        <img src="images/Screenshot 2024-05-06 000851.png" alt="Dashboard Image" style="width:100%;margin: 10px;">
+        GitHub repository : <a href="https://github.com/Anshu885/Extracting-Live-Insights-from-Coursera" color="blue"><b>Link</b></a>
+      </div>
+      <div class="project" id="nrega">
+        <h3>Impact Analysis of NREGA Scheme on Rural India</h3>
+        <h6>Power BI | Excel | Statistical Insights</h6>
+        <p>
+          This project was undertaken during my Data Analyst internship at Mentorness. <br>
+        <b> Situation:</b><br>
+          The National Rural Employment Guarantee Act (NREGA) is a pivotal government initiative aimed at alleviating rural unemployment and poverty by providing guaranteed wage employment opportunities. Understanding the effectiveness and regional disparities in the implementation of NREGA was crucial for optimizing its impact. <br>
+          
+         <b> Task:</b> <br>
+          The task was to analyze a comprehensive dataset related to NREGA to extract meaningful insights that could guide policymakers and administrators in enhancing the scheme's effectiveness and addressing regional disparities. <br>
+          
+        <b> Action:</b>
+          <ul>
+          <li>Cleaned and prepared the dataset for analysis, ensuring accuracy and consistency.</li>
+          <li>Conducted EDA to identify patterns, trends, and disparities in NREGA implementation across different states and districts.</li>
+          <li>Utilized Power BI and Excel to create visualizations that effectively presented key findings.</li>
+          <li>Analyzed key variables such as the number of job cards issued, workforce engagement, budget allocation, and work completion statistics to draw actionable insights. </li></ul>
+        <b>Result:</b>
+        <ul>
+          <li>Uncovered that the average daily wage was Rs. 203 per person, highlighting the scheme's effectiveness in combating rural unemployment.</li>
+          <li>Found that each rural household received an average of 23 days of employment, indicating substantial support provided by the scheme.</li>
+          <li>Highlighted widespread benefits with multi-family participation in NREGA works.</li>
+          <li>Noted significant regional insights, such as high JobCard issuance in Bihar and a high number of active workers in West Bengal, addressing regional disparities and reflecting diverse socio-economic landscapes.</li>
+          <li>Provided data-driven recommendations to policymakers and administrators to optimize the scheme's impact, focusing on areas with disparities and potential for improvement.</li></ul>
+        </p>
+        <img src="images\nrega__page-0001.jpg" alt="Dashboard Image" style="width:100%;margin: 10px;">
+        <img src="images\nrega__page-0002.jpg" alt="Dashboard Image" style="width:100%;margin: 10px;">
+        GitHub repository : <a href="https://github.com/Anshu885/Impact-Analysis-of-NREGA-Scheme-on-Rural-India/tree/main" color="blue"><b>Link</b></a>
+    </div>
+      
+    <div class="project" id="6">
+      <h3>Empowering Businesses with Online Retail Performance Insights</h3>
+      <h6>Power BI | Excel</h6>
+      <p>
+       <b> Situation:</b> <br>
+        During my virtual internship at Tata Group, I participated in the "Data Visualization: Empowering Businesses with Effective Insights" program on Forage. The goal was to analyze and visualize online retail performance data to provide actionable insights for Tata Consultancy Services. <br>
+        
+      <b> Task:</b><br>
+        I was tasked with creating data visualizations to support executive decision-making, preparing relevant questions for senior leadership meetings, and analyzing revenue data to identify trends and significant changes over the year 2011. <br>
+        
+      <b> Action:</b> 
+      <ul>
+       
+        
+        <li> Collected and cleaned the revenue data for the year 2011.</li>
+          <li>Designed comprehensive visuals that highlighted key performance metrics, trends, and anomalies in the data.</li>
+            <li> Prepared a series of insightful questions for senior leadership to guide discussions in upcoming meetings.</li>
+              <li> Conducted an in-depth analysis of the revenue data, focusing on monthly trends and significant changes. </li></ul>
+      <b>Result:</b>
+        <ul>
+      <li>  Created impactful data visualizations that facilitated executive decision-making.</li>
+      <li>  Discovered a 7.60% decrease in revenue from January to December 2011, prompting a closer examination of the factors contributing to this decline.</li>
+      <li> Identified a substantial 98.16% increase (₹747,756.43) in revenue from June to November 2011, highlighting a period of significant growth that warranted further investigation.</li>
+      <li>  Provided senior leadership with valuable insights and questions that led to strategic discussions aimed at improving business performance.</li></ul>
+      </p>
+      <img src="images\Screenshot 2024-06-01 211523.png" alt="Dashboard Image" style="width:100%;margin: 10px;">
+      GitHub repository : <a href="https://github.com/Anshu885/Empowering-Businesses-with-Online-Retail-Performance-Insights" color="blue"><b>Link</b></a>
+  </div>     
+      <div class="project" id="sql">
+        <h3>Pizza Sales</h3>
+        <h6>SQL</h6>
+        <p>
+          <b>Situation:</b><br>
+In a competitive food industry, optimizing sales strategies and operational efficiency was crucial for increasing revenue and customer satisfaction for a pizza business. <br>
+<b>Task:</b><br>
+The objective was to analyze pizza sales data using SQL to extract critical insights that would inform strategic decision-making and drive operational improvements. <br>
+<b>Action:</b>
+<ul>
+<li>Utilized SQL to query and analyze the pizza sales data, focusing on key metrics such as top-selling pizza types, revenue trends, and hourly order patterns.</li>
+<li>Applied data analysis techniques in Excel to further refine and visualize the extracted insights.</li>
+<li>Identified patterns in sales data, including peak demand times and popular menu items.</li>
+<li>Recommended adjustments to inventory management and staffing schedules based on the analysis.</li>
+</ul>
+<b>Result:</b>
+<ul>
+<li>The analysis led to the identification of top-selling pizza types and revenue trends, allowing for better stock management and marketing strategies.</li>
+<li>Discovered hourly order patterns, which informed staffing adjustments to better handle peak demand times.</li>
+<li>These strategic and operational improvements contributed to a 15% increase in sales, demonstrating the effectiveness of data-driven decision-making in optimizing business operations.</li>
+</ul>
+        </p>
+        GitHub repository : <a href="https://github.com/Anshu885/Pizza-Sales"><b>Link</b></a>
+    </div>
+    <div class="project" id="covid">
+      <h3>Analyzing the Global Impact of COVID-19</h3>
+      <h6>SQL</h6>
+      <p>
+        <b>Situation:</b><br>
+        As part of the Mentorness Internship Program Batch MIP-DA-09, I undertook an SQL-based analysis of a comprehensive COVID-19 dataset.<br>
+<b>Task:</b><br>
+My task was to analyze global COVID-19 data to understand its spread, impact, and recovery patterns across different regions and time periods. <br>
+<b>Action:</b>
+<ul>
+  <li>Cleaned and prepared the dataset, ensuring data integrity and consistency.</li>
+  <li>Executed SQL queries to extract key metrics such as confirmed cases, deaths, and recoveries.</li>
+  <li>Conducted detailed analyses to identify monthly trends, regional disparities, and country-specific impacts.</li>
+</ul>
+
+<b>Result:</b>
+<ul>
+  <li>Discovered that from January 2020 to June 2021, there were 169,065,144 confirmed cases globally.</li>
+  <li>Highlighted the US with the highest confirmed cases (33,461,982) and countries like Dominica, Kiribati, Marshall Islands, and Samoa with minimal deaths.</li>
+  <li>Identified India, Brazil, US, Turkey, and Russia as the top countries in terms of recoveries.</li>
+</ul>
+      </p>
+      GitHub repository : <a href="https://github.com/Anshu885/Analyzing-the-Global-Impact-of-COVID-19"><b>Link</b></a>
+  </div>
+
+   
+      <div class="project" id="excel">
+        <h3>Retail Sales Analysis for Coffee Shop Optimization</h3>
+        <h6>Excel</h6>
+        <p>
+          <b> Situation:</b> <br>
+          I conducted a detailed retail sales analysis using Excel to optimize the performance of a coffee shop, focusing on maximizing sales and customer satisfaction.<br>
+           
+         <b> Task:</b><br>
+         My objectives included increasing sales during peak hours, optimizing staffing and inventory, implementing strategic marketing initiatives, and improving product performance. <br>
+           
+         <b> Action:</b> 
+         <ul>
+          <li>Optimized staffing and inventory management specifically for the 8-10 a.m. peak hours, resulting in a 10% increase in morning sales.</li>
+    <li>Executed strategic marketing campaigns that led to a notable 20% month-over-month sales increase, with June achieving a record high.</li>
+    <li>Focused efforts on Hill's Kitchen location, achieving a remarkable 25% increase in sales, positioning it as the top-performing store.</li>
+    <li>Enhanced average revenue per customer to $4.69 and increased average orders per customer to 1.44 through targeted upselling and menu optimization.</li>
+    <li>Successfully boosted sales of Barista Espresso coffee cups, which became the top-selling product, contributing 39% of total revenue.</li>
+</ul>
+         <b>Result:</b>
+           <ul>
+            <li>Achieved significant improvements in sales metrics, demonstrating effective use of data analysis and strategic initiatives.</li>
+            <li>Strengthened customer engagement and satisfaction through targeted promotions and optimized service during peak hours.</li>
+            <li>Enhanced operational efficiency by aligning staffing and inventory with customer demand, leading to increased profitability and customer retention.</li>
+        </ul>
+         </p>
+        <img src="images\Screenshot 2024-03-08 203421.png" alt="Dashboard Image" style="width:100%;margin: 10px;">
+        GitHub repository : <a href="https://github.com/Anshu885/Retail-Sales-Analysis-for-Coffee-Shop-Optimization" color="blue"><b>Link</b></a>
+      </div>
+      <div class="project">
+          <h3>Annual Sales Analysis for Vrinda Store</h3>
+          <h6>Excel</h6>
+        <p>
+          <b>Situation:</b><br>
+I conducted a comprehensive annual sales analysis for Vrinda Store using Excel to uncover key insights into customer demographics, regional sales contributions, and top-performing sales channels. <br>
+
+<b>Task:</b><br>
+The objective was to provide actionable insights for enhancing sales growth in 2023 through data-driven decisions and targeted marketing strategies. <br>
+<b> Action:</b> 
+<ul>
+  <li>Analyzed sales data to identify that women constitute 65% of purchases, highlighting a significant customer demographic.</li>
+  <li>Determined that Maharashtra, Karnataka, and Uttar Pradesh collectively contribute 35% to total sales, identifying key regional markets for focused marketing efforts.</li>
+  <li>Found that adults aged 30-49 years account for 50% of sales, emphasizing the importance of targeting this age group with relevant products and promotions.</li>
+  <li>Discovered that Amazon, Flipkart, and Myntra channels collectively account for 80% of sales, prioritizing these channels for marketing investments and partnership strategies.</li>
+  <li>Used these insights to develop targeted marketing strategies aimed at enhancing customer engagement and driving sales growth for Vrinda Store in 2023.</li>
+</ul>
+<b>Result:</b>
+<ul>
+  <li>Enhanced understanding of customer demographics and regional sales patterns enabled targeted marketing strategies tailored to specific customer segments and geographic areas.</li>
+  <li>Identified top-performing sales channels, allowing for optimized allocation of resources and strategic partnerships.</li>
+  <li>Provided actionable insights that informed data-driven decisions for achieving sales growth in 2023, ensuring alignment with business objectives and customer preferences.</li>
+</ul>
+
+        </p>
+        <img src="images\Screenshot 2024-03-17 123819.png" alt="Dashboard Image" style="width:100%;margin: 10px;">
+        GitHub repository : <a href="https://github.com/Anshu885/Annual-Sales-Analysis-for-Vrinda-Store" color="blue"><b>Link</b></a>
+      </div>
+      <div class="project">
+          <h3>Data-Driven Business Improvement Project</h3>
+          <h6>Excel</h6>
+          <p>
+            <b>Situation:</b> <br>
+As a leader in data analysis, I spearheaded a project aimed at enhancing decision-making and improving overall business performance using Excel. <br>
+
+<b>Task:</b><br>
+My responsibilities included conducting comprehensive data analysis, optimizing operational processes, and identifying opportunities for growth and efficiency. <br>
+<b>Action:</b>
+<ul>
+  <li>
+Utilized Power Query to conduct thorough data cleaning and preparation, increasing data accuracy by 10%.</li>
+<li>Implemented advanced data modeling techniques to streamline analysis processes, improving efficiency by 15% and enabling quicker insights extraction.</li>
+<li>Analyzed customer data to identify loyalty trends and top clients, resulting in a significant 20% increase in customer retention rates.</li>
+<li>Conducted detailed sales distribution analysis to inform targeted marketing strategies, leading to a notable 25% increase in sales in key regions.</li>
+<li>Evaluated product categories and optimized inventory management practices, achieving a 12% reduction in costs while maintaining sales efficiency.</li>
+<li>Assessed shipping times and implemented improvements, resulting in a 30% increase in customer satisfaction scores. </ul>
+<b>Result:</b>
+<li>Improved decision-making processes and boosted overall business performance across various metrics.</li>
+<li>Enhanced data accuracy and analysis efficiency through advanced tools and techniques.</li>
+<li>Increased customer retention and satisfaction through targeted marketing strategies and improved service delivery.</li>
+<li></li>Achieved cost savings through optimized inventory management practices and operational improvements. </li></ul>
+          </p>
+          <img src="images\Screenshot 2024-03-17 220908.png" alt="Dashboard Image" style="width:100%;margin: 10px;">
+          GitHub repository : <a href="https://github.com/Anshu885/Data-Driven-Business-Improvement-Project" color="blue"><b>Link</b></a>
+      </div>
+      <div class="project">
+        <h3>Sales Analysis and Performance Evaluation: A Four-Year Overview</h3>
+        <h6>Excel</h6>
+        <p>
+          <b>Situation:</b> <br>
+I conducted a comprehensive sales analysis and performance evaluation for a business, focusing on trends and profitability across various product categories over a four-year period (2014 to 2017). <br>
+<b>Task:</b> <br>
+The objective was to analyze sales trends, evaluate performance, and provide actionable insights to enhance profitability and market expansion. <br>
+<b>Action:</b>
+<ul>
+<li>Analyzed sales data for furniture, office supplies, and technology from 2014 to 2017 to identify overall trends and profitability across these categories.</li>
+<li>Examined monthly sales performance to identify peak periods and seasonal trends, providing insights into when sales were highest throughout the year.</li>
+<li>Investigated the contributions of top-performing sales representatives to overall revenue, highlighting their impact on business success.</li>
+<li>Conducted a geographical analysis of sales distribution across different states in the United States to identify key markets and regions with the highest sales.</li>
+<li>Assessed customer growth and retention rates over the four-year period to understand the effectiveness of customer engagement and loyalty strategies.</li>
+<li>Evaluated the impact of various sales strategies on profit margins and market expansion, providing insights into which strategies were most effective.</li>
+</ul>
+<b>Result:</b>
+<ul>
+  <li>Identified significant trends in sales and profitability across furniture, office supplies, and technology, enabling targeted improvements in product offerings.</li>
+<li>Recognized peak sales periods throughout the year, allowing for strategic planning and inventory management to capitalize on these times.</li>
+<li>Highlighted the contributions of top-performing sales representatives, leading to recognition and potential replication of successful practices.</li>
+<li>Identified key states with high sales performance, guiding regional marketing and expansion efforts.</li>
+<li>Provided insights into customer growth and retention, leading to enhanced customer loyalty programs and strategies.</li>
+<li>Evaluated the effectiveness of sales strategies on profit margins and market expansion, resulting in data-driven decisions to optimize sales approaches.</li>
+</ul>
+        </p>
+        <img src="images\Screenshot 2024-03-13 195014.png" alt="Dashboard Image" style="width:100%;margin: 10px;">
+        GitHub repository : <a href="https://github.com/Anshu885/Sales-Analysis-and-Performance-Evaluation-A-Four-Year-Overview" color="blue"><b>Link</b></a>
+    </div>
+    <div class="project">
+      <h3>US Store Analysis</h3>
+      <h6>Excel</h6>
+      <p>
+        <b>Situation:</b> <br>
+        I was tasked with performing a comprehensive analysis of a US store's sales and profit data to optimize revenue streams, enhance marketing strategies, and improve operational efficiency.<br>
+        <b>Task:</b> <br>
+        The primary objectives included analyzing monthly sales and profit across product categories, evaluating segment distribution, improving regional sales performance, and streamlining order fulfillment processes. <br>
+        <b>Action:</b>
+        <ul>
+        <li>Conducted an in-depth analysis of monthly sales and profit data for each product category using Excel, identifying trends and opportunities for revenue optimization.</li>
+        <li>Evaluated the distribution of sales within different segments of each product category, gaining insights to refine marketing strategies and improve customer engagement.</li>
+        <li>Analyzed regional sales data to identify areas with growth potential, implementing targeted marketing and sales initiatives that led to a 15% increase in sales in these regions.</li>
+        <li>Assessed the order fulfillment process and identified bottlenecks, implementing improvements that resulted in a 20% reduction in delivery lead times.</li>
+
+        </ul>
+        <b>Result:</b>
+        <ul>
+          <li>Identified key trends in monthly sales and profit, leading to strategic adjustments that optimized revenue streams across various product categories.</li>
+          <li>Improved understanding of segment distribution within categories, enabling more effective and targeted marketing strategies that boosted customer engagement.</li>
+          <li>Achieved a 15% increase in sales in targeted regions through focused marketing and sales efforts, expanding the store's market reach.</li>
+          <li>Streamlined order fulfillment processes, reducing delivery lead times by 20% and enhancing overall customer satisfaction.</li>
+      </ul>
+      
+      </p>
+      <img src="images\Screenshot 2024-03-17 224123.png" alt="Dashboard Image" style="width:100%;margin: 10px;">
+      GitHub repository : <a href="https://github.com/Anshu885/US-Store-Analysis" color="blue"><b>Link</b></a>
+  </div>
+
+
+  </section>
+</div>
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
